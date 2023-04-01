@@ -1,0 +1,55 @@
+.todo_task {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+}
+
+.main_cont {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.left,
+.right {
+    margin: 5px;
+    border-radius: 8px;
+    width: 30vw;
+    height: 60vh;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.right {
+    background-color: rgb(123, 218, 255);
+
+}
+
+.left {
+    background-color: rgb(221, 169, 253);
+}
+
+body {
+    background-color: rgb(255, 0, 162);
+}
+
+span {
+    position: relative;
+    top: 40%;
+}
+
+#todo_item {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
